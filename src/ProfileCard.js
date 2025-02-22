@@ -1,6 +1,5 @@
-function ProfileCard(props){
-    const title = props.title;
-    const handle = props.handle;
+function ProfileCard({title, handle}){
+
     return (<div>
         <div>Title is {title}</div>
         <div>Title is {handle}</div>
